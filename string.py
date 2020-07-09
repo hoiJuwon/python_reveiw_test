@@ -2,7 +2,7 @@
 
 import json
 
-with open('./swit_chat.json', 'r') as jsonfile:
+with open('./swit_chat.json', 'r', encoding='UTF8) as jsonfile:
     swit_chat_data = json.load(jsonfile)
     print(swit_chat_data)
 
