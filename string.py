@@ -1,3 +1,5 @@
+# 파이썬 문자열 다루기 마스터해보자
+
 import json
 
 with open('./swit_chat.json', 'r') as jsonfile:
